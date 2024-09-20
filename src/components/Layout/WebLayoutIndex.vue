@@ -55,7 +55,9 @@
           <a-breadcrumb-item>List</a-breadcrumb-item>
           <a-breadcrumb-item>App</a-breadcrumb-item>
         </a-breadcrumb>
-        <a-layout-content> Content</a-layout-content>
+        <a-layout-content>
+          <div id="container"></div>
+        </a-layout-content>
       </a-layout>
     </a-layout>
   </a-layout>

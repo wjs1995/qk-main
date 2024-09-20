@@ -4,5 +4,6 @@ import "./registerServiceWorker";
 import router from "./router";
 import store from "./store";
 import ImportAntd from "@/plugins/Antd";
+import "@/plugins/QK";
 
 createApp(App).use(store).use(router).use(ImportAntd).mount("#app");
