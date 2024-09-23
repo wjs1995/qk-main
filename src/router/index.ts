@@ -7,6 +7,11 @@ const routes: Array<RouteRecordRaw> = [
     name: "home",
     component: Layout,
   },
+  {
+    path: "/app-vue2",
+    name: "app-vue2",
+    component: Layout,
+  },
 ];
 
 const router = createRouter({

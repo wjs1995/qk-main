@@ -50,11 +50,6 @@
         </a-menu>
       </a-layout-sider>
       <a-layout>
-        <a-breadcrumb>
-          <a-breadcrumb-item>Home</a-breadcrumb-item>
-          <a-breadcrumb-item>List</a-breadcrumb-item>
-          <a-breadcrumb-item>App</a-breadcrumb-item>
-        </a-breadcrumb>
         <a-layout-content>
           <div id="container"></div>
         </a-layout-content>
@@ -84,5 +79,6 @@ const getClass = (cls: string) => {
 .@{prefixClass}-header {
   background-color: #ffffff;
   position: relative;
+  height: 50px;
 }
 </style>
